@@ -78,3 +78,45 @@ main {
     font-size: 20px;
     margin-top: 0px;
 }
+.studies {
+    display: flex;
+}
+.stud-place {
+    margin: 10px 10px;
+    text-align: center;
+}
+.stud-place img {
+    border: solid gray 1px;
+    height: 200px;
+    width: 280px;
+}
+.stud-place img:hover {
+    transition: 1s;
+    transform: scale(1.5);
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-place {
+    margin: 30px 30px;
+    height: 500px;
+    width: 500px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    text-align: center;
+}
+.work-place img {
+    border-radius: 10%;
+    height: 220px;
+    width: 300px;
+    margin: 0 20%;
+}
+.work-place p {
+    margin: 15px 20px;
+}
+.work-place:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
