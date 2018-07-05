@@ -1,0 +1,82 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+.match-form {
+	width: 600px;
+	height: 120px;
+}
+.up {
+	width: 600px;
+	height: 40px;
+	background-color: #dcdcdc;
+	border-bottom: solid 1px #bababa;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.up-left span {
+	margin-left: 15px;
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+}
+.up-right span {
+	margin-right: 15px;
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: 200;
+}
+.down {
+	width: 600px;
+	height: 80px;
+	background-color: white;
+}
+.down ul {
+	margin: 0 0;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+.down li {
+	display: flex;
+	align-items: center;
+}
+.dowm ul:lastchild {
+	margin: 0px 0px;
+}
+.emblem {
+	height: 64px;
+	width: 64px;
+}
+.tour-emblem {
+	height: 64px;
+	width: 128px;
+}
+.team {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+.percent {
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	color: grey;
+}
+.bo {
+	height: 36px;
+	width: 36px;
+	border-radius: 50%;
+	background-color: #cecece;
+	margin-top: 15px;
+}
+.bo span {
+	text-align: center;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #737373;
+	margin-left: 3px;
+}
